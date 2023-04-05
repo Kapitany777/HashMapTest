@@ -48,6 +48,27 @@ public class Main
                 .forEach(e -> System.out.println(e.getKey() + "^2 = " + e.getValue()));
     }
 
+    public static void example4()
+    {
+        System.out.println("HashMap example 4");
+
+        var map = new HashMap<Integer, Integer>();
+
+        System.out.println("A new map is created...");
+        System.out.println("The map's size is: " + map.size());
+        System.out.println("The map is empty: " + map.isEmpty());
+
+        System.out.println("Adding something to the map...");
+        map.put(1, 5);
+        System.out.println("The map's size is: " + map.size());
+        System.out.println("The map is empty: " + map.isEmpty());
+
+        System.out.println("Clearing the map...");
+        map.clear();
+        System.out.println("The map's size is: " + map.size());
+        System.out.println("The map is empty: " + map.isEmpty());
+    }
+
     public static void main(String[] args)
     {
         System.out.println("HashMap test program");
@@ -60,6 +81,9 @@ public class Main
         System.out.println();
 
         example3();
+        System.out.println();
+
+        example4();
         System.out.println();
     }
 }
