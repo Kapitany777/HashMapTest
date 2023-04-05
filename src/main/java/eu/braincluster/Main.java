@@ -1,6 +1,9 @@
 package eu.braincluster;
 
 import java.util.HashMap;
+import java.util.Map;
+
+import static java.util.Map.entry;
 
 public class Main
 {
@@ -125,6 +128,18 @@ public class Main
         people.values().forEach(v -> System.out.println(v));
     }
 
+    public static void example8()
+    {
+        System.out.println("HashMap example 8");
+
+        Map<String, Double> map = Map.ofEntries(
+                entry("A", 1.5),
+                entry("B", 4.8),
+                entry("C", 5.6));
+
+        map.forEach((k, v) -> System.out.println(k + " -> " + v));
+    }
+
     public static void main(String[] args)
     {
         System.out.println("HashMap test program");
@@ -149,6 +164,9 @@ public class Main
         System.out.println();
 
         example7();
+        System.out.println();
+
+        example8();
         System.out.println();
     }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a69db83-0057-4e29-9839-9aa14fab22d8" name="Changes" comment="Adding example6">
+    <list default="true" id="1a69db83-0057-4e29-9839-9aa14fab22d8" name="Changes" comment="Adding example7">
       <change beforePath="$PROJECT_DIR$/src/main/java/eu/braincluster/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/braincluster/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680687792000</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding example7">
+      <created>1680688216384</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680688216384</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -95,6 +102,7 @@
     <MESSAGE value="Adding example4" />
     <MESSAGE value="Adding example5" />
     <MESSAGE value="Adding example6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding example6" />
+    <MESSAGE value="Adding example7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding example7" />
   </component>
 </project>
