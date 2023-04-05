@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a69db83-0057-4e29-9839-9aa14fab22d8" name="Changes" comment="Adding example4">
+    <list default="true" id="1a69db83-0057-4e29-9839-9aa14fab22d8" name="Changes" comment="Adding example5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/braincluster/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/eu/braincluster/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/braincluster/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +18,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,13 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680686797670</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding example5">
+      <created>1680687111548</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680687111548</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding example1" />
     <MESSAGE value="Adding example2 and example3" />
     <MESSAGE value="Adding example4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding example4" />
+    <MESSAGE value="Adding example5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding example5" />
   </component>
 </project>

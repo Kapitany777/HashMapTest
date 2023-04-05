@@ -88,6 +88,26 @@ public class Main
         }
     }
 
+    public static void example6()
+    {
+        System.out.println("HashMap example 6");
+
+        var people = new HashMap<String, Person>();
+
+        people.put("JJ", new Person("James", "Japp"));
+        people.put("AH", new Person("Arthur", "Hastings"));
+        people.put("HP", new Person("Hercule", "Poirot"));
+
+        people.forEach((m, p) -> System.out.println(p));
+
+        var japp = people.get("JJ");
+
+        if (japp != null)
+        {
+            System.out.println(japp);
+        }
+    }
+
     public static void main(String[] args)
     {
         System.out.println("HashMap test program");
@@ -106,6 +126,9 @@ public class Main
         System.out.println();
 
         example5();
+        System.out.println();
+
+        example6();
         System.out.println();
     }
 }
