@@ -69,6 +69,25 @@ public class Main
         System.out.println("The map is empty: " + map.isEmpty());
     }
 
+    public static void example5()
+    {
+        System.out.println("HashMap example 5");
+
+        var map = new HashMap<String, Integer>();
+
+        map.put("Pistaba", 1970);
+
+        if (map.containsKey("Pistaba"))
+        {
+            System.out.println(map.get("Pistaba"));
+        }
+
+        if (!map.containsKey("Feriba"))
+        {
+            System.out.println("Feriba not found...");
+        }
+    }
+
     public static void main(String[] args)
     {
         System.out.println("HashMap test program");
@@ -84,6 +103,9 @@ public class Main
         System.out.println();
 
         example4();
+        System.out.println();
+
+        example5();
         System.out.println();
     }
 }
