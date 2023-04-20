@@ -140,6 +140,21 @@ public class Main
         map.forEach((k, v) -> System.out.println(k + " -> " + v));
     }
 
+    public static void example9()
+    {
+        System.out.println("HashMap example 9");
+
+        var map = new HashMap<String, Integer>();
+
+        map.put("Pistaba", 88);
+        System.out.println(map.get("Pistaba"));
+
+        if (map.get("Feriba") == null)
+        {
+            System.out.println("Feriba not found...");
+        }
+    }
+
     public static void main(String[] args)
     {
         System.out.println("HashMap test program");
@@ -167,6 +182,9 @@ public class Main
         System.out.println();
 
         example8();
+        System.out.println();
+
+        example9();
         System.out.println();
     }
 }
